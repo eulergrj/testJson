@@ -1,8 +1,5 @@
   
 {
-  "draw": "int",
-  "recordsTotal": "int",
-  "recordsFiltered": "int",
   "Vehicle":{
         "VehicleId":"int",
         "CustomerId":"int",
