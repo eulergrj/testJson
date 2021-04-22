@@ -1,0 +1,25 @@
+{
+  "draw": 0,
+  "recordsTotal": 258,
+  "recordsFiltered": 258,
+  "data": [
+    {
+        "VehicleId":1111111,
+        "CustomerId":99999999999,
+        "VehicleNumber":"I98392839891",
+        "VehicleClass":"1",
+        "VehicleClassDesc":"Motor cars or public service vehicle with seating for up to 8 passengers ",
+        "Make":"RR",
+        "Model":"DD",
+        "Color":"RED",
+        "Year":2017,
+        "RCNumber":"",
+        "NvdfOwnerSequenceNumber":0,
+        "StartEffectiveDate":"2020-09-11T13:23:58",
+        "EndEffectiveDate":"9999-12-31T23:59:59",
+        "VehicleStatus":"Active",
+        "IsTemporaryNumber":false,
+        "Country":"IE"
+    }
+  ]
+}
