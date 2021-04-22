@@ -1,25 +1,13 @@
 {
-  "draw": "int",
-  "recordsTotal": "int",
-  "recordsFiltered": "int",
-  "data": [
-    {
-        "VehicleId":"int",
-        "CustomerId":"int",
-        "VehicleNumber":"string",
-        "VehicleClass":"int",
-        "VehicleClassDesc":"string",
-        "Make":"string",
-        "Model":"string",
-        "Color":"string",
-        "Year":"string",
-        "RCNumber":"int",
-        "NvdfOwnerSequenceNumber":"int",
-        "StartEffectiveDate":"datetime",
-        "EndEffectiveDate":"datetime",
-        "VehicleStatus":"string",
-        "IsTemporaryNumber":"boolean",
-        "Country":"string"
-    }
-  ]
+  "Post": {
+    "title": "string",
+    "views": "int",
+    "published": "boolean",
+    "createdAt": "date",
+    "comments": "Comment[]"
+  },
+  "Comment": {
+    "body": "string",
+    "post": "Post"
+  }
 }
